@@ -1,0 +1,23 @@
+[package]
+name = "flux_semantic"
+version.workspace = true
+authors.workspace = true
+description.workspace = true
+edition.workspace = true
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+getset = { workspace = true }
+flux_base = { path = "../flux_base" }
+flux_lexical = { path = "../flux_lexical" }
+flux_syntax = { path = "../flux_syntax" }
+enum-as-inner = { workspace = true }
+thiserror = { workspace = true }
+derive_more = { workspace = true }
+derive-new = { workspace = true }
+
+[dev-dependencies]
+flux_test = { path = "../flux_test" }
+proptest = { workspace = true }
+proptest-state-machine = { workspace = true }

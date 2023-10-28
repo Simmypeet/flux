@@ -1,0 +1,11 @@
+[package]
+name = "flux"
+version.workspace = true
+authors.workspace = true
+description.workspace = true
+edition.workspace = true
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+flux_driver = { path = "../flux_driver" }
