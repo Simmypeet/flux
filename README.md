@@ -92,7 +92,7 @@ All the examples Flux programs can be found in the `examples` directory. To run 
 execute the following command:
 
 ```bash
-cargo run --release --example <example_name>
+cargo run --release -- example/<name>
 ```
 
 ### 1. Fibonacci
